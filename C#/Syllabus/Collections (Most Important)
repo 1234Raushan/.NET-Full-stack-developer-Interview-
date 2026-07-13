@@ -1,0 +1,15 @@
+✅ List<T>
+
+✅ Dictionary<TKey,TValue>
+
+✅ HashSet
+
+✅ Queue
+
+✅ Stack
+
+✅ LinkedList
+
+✅ SortedDictionary
+
+✅ ConcurrentDictionary (basic)

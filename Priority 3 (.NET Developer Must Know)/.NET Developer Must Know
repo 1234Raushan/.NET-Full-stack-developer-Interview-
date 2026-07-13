@@ -1,0 +1,131 @@
+Priority 3 (.NET Developer Must Know)
+
+SOLID Principles ⭐⭐⭐⭐⭐
+
+Single Responsibility
+
+Open Closed
+
+Liskov
+
+ISP
+
+Dependency Inversion
+
+Design Patterns ⭐⭐⭐⭐⭐
+
+Repository
+
+Unit Of Work
+
+Factory
+
+Strategy
+
+Observer
+
+Builder
+
+Mediator
+
+CQRS
+
+Dependency Injection
+
+Singleton
+
+Decorator
+
+Adapter
+
+Dependency Injection ⭐⭐⭐⭐⭐
+
+Constructor Injection
+
+Service Lifetime
+
+Scoped
+
+Singleton
+
+Transient
+
+Logging
+
+ILogger
+
+Serilog
+
+NLog
+
+Structured Logging
+
+Configuration
+
+appsettings.json
+
+Options Pattern
+
+Environment Variables
+
+Secrets
+
+Middleware
+
+Custom Middleware
+
+Pipeline
+
+Authentication
+
+JWT
+
+Cookie
+
+Identity
+
+OAuth
+
+OpenID
+
+Authorization
+
+Policy Based
+
+Role Based
+
+Claims
+
+Validation
+
+FluentValidation
+
+Data Annotation
+
+Serialization
+
+System.Text.Json
+
+Newtonsoft
+
+Caching
+
+Memory Cache
+
+Distributed Cache
+
+Redis
+
+Background Services
+
+IHostedService
+
+BackgroundService
+
+Hangfire
+
+Quartz
+
+SignalR
+
+Realtime Communication
