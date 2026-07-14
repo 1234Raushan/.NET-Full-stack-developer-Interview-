@@ -1,0 +1,219 @@
+# 1️⃣ Where() (10 Questions)
+
+### Easy
+
+1. Salary > 50000
+2. Salary < 30000
+3. Even Id employees
+4. Odd Id employees
+5. Name starts with "A"
+
+### Medium
+
+6. Name contains "sh"
+7. Salary between 30000 and 70000
+8. Location == "Delhi"
+9. Name length > 5
+10. Salary >50000 && Location=="Pune"
+
+---
+
+# 2️⃣ Select() (10 Questions)
+
+### Easy
+
+1. Select Name
+2. Select Salary
+3. Select Id
+4. Name in Uppercase
+5. Name in Lowercase
+
+### Medium
+
+6. Name + Salary
+7. Annual Salary (Salary × 12)
+8. Anonymous Object (Id, Name)
+9. Name Length
+10. Salary >50000 (bool projection)
+
+---
+
+# 3️⃣ OrderBy() (10 Questions)
+
+1. Salary Ascending
+2. Name Ascending
+3. Id Ascending
+4. Location Ascending
+5. Bonus Ascending
+6. String Length Ascending
+7. Salary then Name
+8. Sort by First Character
+9. Sort by Last Character
+10. Sort by Salary % 10000
+
+---
+
+# 4️⃣ OrderByDescending()
+
+1. Highest Salary First
+2. Name Descending
+3. Id Descending
+4. Bonus Descending
+5. Location Descending
+6. Longest Name First
+7. Salary Descending then Name
+8. Highest Id
+9. Highest Bonus
+10. Salary Descending & Location Ascending
+
+---
+
+# 5️⃣ ThenBy()
+
+1. Order by Location then Name
+2. Order by Salary then Name
+3. Order by Name then Salary
+4. Order by Bonus then Salary
+5. Order by Salary then Id
+
+---
+
+# 6️⃣ ThenByDescending()
+
+1. Salary Asc then Name Desc
+2. Location Asc then Salary Desc
+3. Name Asc then Bonus Desc
+4. Salary Desc then Id Desc
+5. Bonus Desc then Name Desc
+
+---
+
+# 7️⃣ First()
+
+1. First Employee
+2. First Salary >50000
+3. First Employee from Delhi
+4. First Name starts with R
+5. First Even Id
+
+---
+
+# 8️⃣ FirstOrDefault()
+
+1. Salary >100000
+2. Name starts with Z
+3. Location Chennai
+4. Bonus >100000
+5. Id=100
+
+---
+
+# 9️⃣ Last()
+
+1. Last Employee
+2. Last Salary >50000
+3. Last Even Id
+4. Last Name starts with A
+5. Last Delhi Employee
+
+---
+
+# 🔟 LastOrDefault()
+
+1. Last Salary >100000
+2. Last Name starts with Z
+3. Last Employee Pune
+4. Last Id >100
+5. Last Bonus >100000
+
+---
+
+# 1️⃣1️⃣ Single()
+
+1. Employee Id==3
+2. Name=="Amit" (only one)
+3. Salary==90000 (only one)
+4. Location=="Delhi" (only one)
+5. Bonus==1000 (only one)
+
+---
+
+# 1️⃣2️⃣ SingleOrDefault()
+
+1. Id==100
+2. Name=="Unknown"
+3. Salary==999999
+4. Location=="USA"
+5. Bonus==999
+
+---
+
+# 1️⃣3️⃣ ElementAt()
+
+1. ElementAt(0)
+2. ElementAt(2)
+3. ElementAt(LastIndex)
+4. ElementAt(1).Name
+5. ElementAt(3).Salary
+
+---
+
+# 1️⃣4️⃣ Count()
+
+1. Total Employees
+2. Salary >50000
+3. Even Id
+4. Delhi Employees
+5. Name starts with A
+
+---
+
+# 1️⃣5️⃣ LongCount()
+
+1. Total Employees
+2. Salary >50000
+3. Active Employees
+4. Even Id
+5. Delhi Employees
+
+*(Note: Functionally same as `Count()` for normal collections; difference is return type `long`.)*
+
+---
+
+# 1️⃣6️⃣ Any()
+
+1. Any Salary >50000?
+2. Any Delhi Employee?
+3. Any Name starts with A?
+4. Any Bonus >10000?
+5. Any Employee from Mumbai?
+
+---
+
+# 1️⃣7️⃣ All()
+
+1. All Salary >10000?
+2. All Employees from Delhi?
+3. All Name Length >3?
+4. All Salary >0?
+5. All Id>0?
+
+---
+
+# 1️⃣8️⃣ Contains()
+
+## Integer List
+
+1. Contains 10?
+2. Contains 100?
+3. Contains Even Number? *(Hint: `Contains` nahi, `Any` use hoga.)*
+4. Contains 25?
+5. Contains -1?
+
+## String List
+
+6. Contains "Amit"?
+7. Contains "Rahul"?
+8. Contains "Nisha"?
+9. Contains "Pune"? *(List of locations)*
+10. Contains "Raushan"?
